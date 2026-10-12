@@ -20,3 +20,5 @@
 ## 3. Kết luận
 - Việc bổ sung tham số `cache: 'gradle'` vào action `setup-java@v5` giúp workflow lưu trữ thư mục `~/.gradle/caches` lại trên GitHub Actions server.
 - Ở các lần chạy sau, thay vì tốn thời gian và băng thông mạng để tải lại các thư viện Java/Spring Boot, GitHub Actions chỉ cần giải nén cache có sẵn, giúp **thời gian chạy CI giảm đi đáng kể** (khoảng `[Điền % hoặc số phút chênh lệch]`), tối ưu hóa tài nguyên và tăng tốc độ phản hồi cho quy trình phát triển.
+
+- chốt oke
